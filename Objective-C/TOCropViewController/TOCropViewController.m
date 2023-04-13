@@ -649,6 +649,9 @@ static const CGFloat kTOCropViewControllerToolbarHeight = 44.0f;
         case TOCropViewControllerAspectRatioPreset5x3:
             aspectRatio = CGSizeMake(5.0f, 3.0f);
             break;
+        case TOCropViewControllerAspectRatioPreset3x4:
+            aspectRatio = CGSizeMake(3.0f, 3.0f);
+            break;
         case TOCropViewControllerAspectRatioPreset4x3:
             aspectRatio = CGSizeMake(4.0f, 3.0f);
             break;
