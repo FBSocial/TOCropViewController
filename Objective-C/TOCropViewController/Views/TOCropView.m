@@ -1050,7 +1050,9 @@ typedef NS_ENUM(NSInteger, TOCropViewOverlayEdge) {
 - (BOOL)cropBoxAspectRatioIsPortrait
 {
     CGRect cropFrame = self.cropBoxFrame;
-    return CGRectGetWidth(cropFrame) < CGRectGetHeight(cropFrame);
+//    return CGRectGetWidth(cropFrame) < CGRectGetHeight(cropFrame);
+    // 只允许竖屏
+    return YES;
 }
 
 - (CGRect)imageCropFrame
